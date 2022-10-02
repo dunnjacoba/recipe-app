@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Row, Col, Container } from "reactstrap";
 import { useHistory } from "react-router-dom";
 import RecipeDisplaySelect from "./RecipeDisplaySelect";
