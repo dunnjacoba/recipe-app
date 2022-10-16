@@ -16,11 +16,10 @@ const RecipeDisplaySelect = (props) => {
         <Row>
           <Col>
             <CardImg
-              src={`http://localhost:5001/${props?.recipe?.image}`}//{props?.recipe?.image}
+              src={`http://localhost:5001/${props?.recipe?.image}`} //{props?.recipe?.image}
               alt={props?.recipe?.title}
               className="border"
             />
-            
           </Col>
           <Col>
             <CardTitle className="m-4">{props?.recipe?.title}</CardTitle>
